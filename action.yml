@@ -3,7 +3,7 @@ description: 'Run cargo command'
 author: 'actions-rs team'
 branding:
   icon: play-circle
-  color: black
+  color: gray-dark
 inputs:
   command:
     description: Cargo command to run (ex. `check` or `build`)
@@ -16,7 +16,7 @@ inputs:
     required: false
   use-cross:
     description: Use cross instead of cargo
-    default: false
+    default: "false"
 
 runs:
   using: 'node12'
