@@ -18,17 +18,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/actions-rs/cargo.git"
+        "url": "git+https://github.com/xmc-rs/cargo.git"
     },
     "keywords": [
         "actions",
         "rust",
         "cargo"
     ],
-    "author": "actions-rs",
+    "author": "xmc-rs",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/actions-rs/cargo/issues"
+        "url": "https://github.com/xmc-rs/cargo/issues"
     },
     "dependencies": {
         "@actions-rs/core": "0.1.3",
